@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman utama</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Aplikasi perkiraan perhitungan barang</h2>
+        <ul>
+            <li>
+                <label for="nilaiA">Masukan ukuran barang ML/KG</label>
+                <input type="number" name="nilaiA" class="nilaiA" id="nilaiA">
+            </li>
+            <li>
+                <label for="nilaiB">Masukan ukuran 1 resep</label>
+                <input type="number" name="nilaiB" class="nilaiB" id="nilaiB">
+            </li>
+            <li>
+                <label for="nilaiC">Masukan Banyaknya barang event pack/unit</label>
+                <input type="number" name="nilaiC" class="nilaiC" id="nilaiC">
+            </li>
+            <li>
+                <button class="mulai" id="mulai" onclick="hitung()">Mulai</button>
+            </li>
+            <li>
+                <label for="create" class="create" id="create">Create by Admin</label>
+            </li>
+        </ul>
+        <p class="p1" id="p1"></p>
+    </div>
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>
